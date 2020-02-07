@@ -1,6 +1,4 @@
-var flag1=true;
-var flag2=true;
-var flag3=true;
+var flag1,flag2,flag3 = true;
 
 const instance = axios.create(
     {
