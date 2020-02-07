@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*
+{
+    font-family: 'Quicksand', sans-serif !important;
+    box-sizing: border-box;
+    scroll-behavior : smooth;
+}
+
+:root 
+{
+    --theme-color : #788a7c;
+    --heading-color : #6ed198;
+}
+
+button
+{
+    border-radius: 0 !important;
+    margin : 0.6rem 0 0.8rem 0 ;
+}
+
+#section-1
+{
+    animation-delay: 0.5s;
+    animation-duration: 2.5s;
+}
+
+#section-2
+{
+    animation-delay: 1s;
+    animation-duration: 2.5s;
+}
+
+nav
+{
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 400;
+    background-color : var(--theme-color) !important
+
+}
+.navbar-dark a
+{
+    color: white !important;
+}
+.navbar-dark a:hover
+{
+    color: var(--heading-color) !important;
+}
+.navbar a
+{
+    transition: 0.8s;
+}
+
+.navbar-brand p
+{
+    font-size: 0.9rem;
+}
+.nav-logo
+{
+    width: 2.6rem;
+}
+.div-1 
+{
+    background-image: url('images/nav-image.jpg');
+    background-size: cover;
+}
+
+.green-heading
+{
+    color: var(--heading-color);
+}
+
+.bg-color
+{
+    background-color: var(--theme-color) ;
+}
+
+.social-logo
+{
+    width: 3rem;
+}
+
+.image-mobile
+{
+    display: none;
+}
+
+.div-3 img
+{
+    width: 4.8rem;
+} 
+
+.div-3 a 
+{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.div-3 a:hover {
+    color: var(--heading-color);
+}
+
+.div-12 textarea
+{
+    height: 52%;
+    resize: none;
+}
+
+.submit-btn
+{
+    width: 8rem ;
+    color: white;
+    padding: 0.5rem;
+    background-color: var(--heading-color);
+    border: 1px solid var(--heading-color);
+    font-size: 1rem;
+}
+
+.submit-btn :hover 
+{
+    color: white;
+    background-color: #09aa74;
+    border-color: #09aa74;
+}
+
+.btn-white 
+{
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.375rem 2rem;
+}
+
+.btn-white:hover 
+{
+    color: white;
+    background-color: var(--heading-color);
+    border-color: white;
+}
+
+.btn-outline-secondary:hover
+{
+    background-color: var(--heading-color) !important;
+    border-color: white !important;
+}
+
+@media only screen and (max-width: 770px)
+{ 
+    .image-big
+    {
+        display: none; 
+    }
+
+    .image-mobile
+    {
+        display: inline;
+    }
+    .div-1 
+    {
+        background-image: url('images/nav-image-mobile.jpg');
+        background-size: cover;
+    }
+
+    .div-12 textarea
+    {
+        height: 10rem;
+    }
+}
